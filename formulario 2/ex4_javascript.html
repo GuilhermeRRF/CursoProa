@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documento</title>
+</head>
+<body>
+</body>
+
+<script>
+
+let idade = prompt("me informe a sua idade?");
+
+if(idade<=15){
+    document.write("<br>" +"voto não obrigatorio");
+}
+else if(idade>=16 && idade<=17){
+    document.write("<br>"+"  voto é opcional");
+}
+else if(idade>= 18 && idade <=69){
+
+    document.write("<br>"+" voto obrigatorio");
+
+}
+else if(idade>=70 && idade<=102){
+    document.write("<br>"+" voto  opcional");
+}
+else{
+    document.write("<br>"+"Encerrar sistema eleitoral");
+}
+
+</script>
+</html>

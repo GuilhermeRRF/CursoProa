@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+        document.write("Seja Bem vindo a final da libertadores!");
+
+        let gol_palmeiras = parseInt(prompt("quantos gols o Palmeiras fez?"));
+        
+        let gol_corithians = parseInt(prompt("quantos gols o Corithians fez?"));
+
+
+        if(gol_palmeiras<gol_corithians){
+            document.write("<br>"+"corinthians venceu o jogo! por "+gol_corithians+ " a " +gol_palmeiras);
+        }
+        else if(gol_palmeiras>gol_corithians){
+            document.write("<br>"+"Palmeiras venceu o jogo! por "+gol_corithians+ " a " +gol_palmeiras);
+        }
+        else if(gol_palemeiras==gol_corithians){
+            document.write("<br>"+"empate! por"+gol_palmeiras+ " a " +gol_corithians);
+        }
+
+        else{
+            document.write("jogo encerrado!");
+        }
+
+    </script>
+    
+</body>
+</html>

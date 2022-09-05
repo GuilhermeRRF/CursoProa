@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma e média</title>
+</head>
+
+<body>
+
+    <script>
+
+        let a = parseInt(prompt("Informe a primeira nota"));
+        if (a > 10 || a < 0) { 
+            alert("O número digitado é invalido, por favor digite um número entre 0 e 10")
+         }
+
+        let b = parseInt(prompt("Informe a segunda nota"));
+        if (b > 10 || b < 0) { 
+            alert("O número digitado é invalido, por favor digite um número entre 0 e 10")
+         }
+
+        let c = parseInt(prompt("Informe a tericera nota"));
+        if (c > 10 || c < 0) {
+             alert("O número digitado é invalido, por favor digite um número entre 0 e 10")
+             }
+
+        let d = parseInt(prompt("Informe a quarta nota"));
+        if (d > 10 || d < 0) {
+            alert("O número digitado é invalido, por favor digite um número entre 0 e 10")
+         }
+
+        var média = (a + b + c + d) / 4;
+        alert("Média é: " + média);
+
+        if (média > 5) { alert("Você passou no teste!"); }
+
+        else { alert("Tente Novamente"); }
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

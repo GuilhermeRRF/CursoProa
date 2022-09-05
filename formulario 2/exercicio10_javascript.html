@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+   <script>
+    var n = parseInt(prompt("Digite o número de lados do polígono: "));
+    var l = parseInt(prompt("Digite o perimetro do polígono: "));
+    var area = (n * Math.pow(l, 2)) / (4 * Math.tan(Math.PI / n))
+
+    if (n == 3) {
+        alert("TRIANGULO");
+        alert("O valor do perímetro é: " + (n * l));
+    }  
+    
+    if (n == 4) {
+                alert("QUADRADO");
+                alert("O valor da área é: " + (Math.pow(l, 2)));
+            }
+
+            if (n == 5) {
+                alert("PENTÁGONO");
+                alert("O valor da área é: " + (n * Math.pow(l, 2)));
+            }      
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        let valor1 = parseInt(prompt("Digite o primeiro valor"));
+
+        let operacao = prompt("Digite qual operação voce deseja aplicar 1 para adição, 2 subtração, 3 divisao, 4 multiplicacao ?")
+
+        let valor2 = parseInt(prompt("Digite o segundo valor "));
+
+
+
+        if (operacao == 1) {
+
+            resultado = valor1 + valor2;
+            document.write("voce escolheu a operação de adição")
+
+            document.write("<br>"+" O resultado de: " + valor1 + "+" + valor2 + " =" + resultado);
+        }
+
+        else if (operacao == 2) {
+
+            resultado = valor1 - valor2;
+            document.write("voce escolheu a operação de subtração")
+
+            document.write("<br>"+" O resultado de: " + valor1 + "-" + valor2 + " =" + resultado);
+        }
+
+        if (operacao == 3) {
+
+            resultado = valor1 / valor2;
+            document.write("voce escolheu a operação de divisão")
+
+            document.write("<br>"+" O resultado de: " + valor1 + "/" + valor2 + " =" + resultado);
+        }
+
+        if (operacao == 4) {
+
+            resultado = valor1 * valor2;
+            document.write("voce escolheu a operação de multiplicação")
+
+            document.write("<br>"+" O resultado de: " + valor1 + "x" + valor2 + " =" + resultado);
+        }
+
+
+    </script>
+</body>
+
+</html>

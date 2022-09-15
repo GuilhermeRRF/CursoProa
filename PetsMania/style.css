@@ -1,0 +1,595 @@
+*{margin: 0;}
+
+body{width: 100%; height: auto;}
+header{width: 100%;}
+
+main{width: 100%; height: auto;}
+
+.logo{margin-left: 15px;}
+
+/*Fonte Externa*/
+@font-face{font-family: montserrat; src: url(fonte/Montserrat-Italic-VariableFont_wght.ttf);}
+.montserrat{font-family: montserrat;}
+
+
+/*Para ficar um de cada lado*/
+.esquerda{
+    justify-content: flex-start; 
+    display: flex;
+    background-color:#40BEF4;
+    position: relative; 
+    width: 80%; float: left;
+    height: 85px;
+}
+
+.direita{
+    justify-content: flex-end; 
+    display: flex; 
+    background-color: #40BEF4; 
+    position: relative;
+    width: 20%; 
+    float: left;
+    height: 85px;
+}
+
+
+/*Barra de Pesquisa*/
+.pesquisa{
+    margin-left: 70px; 
+    margin-top: 20px;
+    background-color: #ffffff;
+    height: 44px; 
+    border-radius: 5px 5px 5px 5px;
+}
+
+#searchTerm{
+    width: 580px; 
+    height: 30px; 
+    border: 1px solid #0868889f;
+    border-right: none; 
+    padding: 6px;
+    border-radius: 5px 0 0 5px;
+}
+
+.searchButton{
+    width: 55px;
+    height: 45px;
+    border: 1px solid #ccc;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer; 
+   background-color: #fff;
+   text-align: center;
+}
+
+/*Icones da Header*/
+.custom-btn-btn-1{
+    width: 130px;
+    height: 40px;
+    margin-right: 30px;
+    border-radius: 10px;
+    background-color: #0868889f;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.251);
+    margin-top: 25px; border: 3px;
+}
+
+    .custom-btn-btn-1 a{
+        text-decoration: none; 
+        color: #000;
+    }
+
+.custom-btn-btn-2{
+    width: 60px; 
+    height: 40px;
+    margin-right: 40px; 
+    border-radius: 10px;
+    background-color: #40bef4c0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 25px;
+    border: 3px;
+}
+    .custom-btn-btn-2 a{
+        text-decoration: none; 
+        color: #000;
+    }
+
+.custom-btn-btn-3{
+    width: 60px;
+    height: 40px;
+    margin-right: 30px;
+    border-radius: 10px;
+    background-color: #40bef4b2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 25px; border: 3px;
+}
+    .custom-btn-btn-3 a{
+        text-decoration: none;
+        color: #000;
+    }
+
+/*Fim da Header*/
+
+/*Nav*/
+#menu{
+    position: relative;
+}
+#menu ul li{
+    float: left;
+    width: auto; 
+    margin: 9px;
+    font-size: 18px; 
+    list-style: none;
+    margin-left: 30px;
+}
+#menu ul li a{
+    text-decoration: none;
+     color: #000;
+    }
+#menu ul li a:hover{
+    border-bottom: 3px solid #ffdd1e;
+}
+/*Fim do nav*/
+
+/*Ozonio*/
+
+.ozonio{position: relative;
+     width: 80%; 
+     height: 350px;
+     top: 10px; 
+     left: 10px;
+     float: left;
+    }
+.ozonio img{
+    width: 100%; 
+    height: 100%;
+}
+
+/*Texto Ozônio*/
+.text_home{
+    background-color: #fff; 
+    position: relative; 
+    float: left;
+    width: 19%;
+    height: 350px; 
+    left: 9px;
+    margin-top: 10px;}
+
+#um, #dois, #tres, #quatro{
+    background-color: #40BEF4; 
+    font-size: 17px;
+    margin: 30px;
+    flex-direction: column; 
+    text-align: center; 
+    border-radius: 6px;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 50px; 
+    width: auto;}
+/*Fim texto ôzonio*/
+
+/*Anuncios Alimentos*/
+#alimentos{
+    position: relative;
+    width: 230px;
+    clear: left; 
+    top: 35px;
+    left: 10px;
+} /*Titulo*/
+
+.container{
+    background-color: rgb(240, 240, 240);
+    position: relative;
+    width: 250px; 
+    left: 5px;
+    height: 330px;
+    margin-left: 14.5px;
+    float: left; 
+    top: 50px;
+} /*Container que carrega a imagem e o titulo*/
+
+.a{
+    background-color: #fff;
+    position: absolute;
+    width: 210px;
+    height: 220px;
+    left: 20px;
+    top: 20px;
+} /*div que carrega as imagens*/
+.a img{
+    width: 100%; 
+    height: 100%;
+}
+
+#text_alimentos{
+    position: relative;
+    top: 250px; 
+    font-size: 15px;
+    left: 20px;
+    }
+
+#preco{
+    top: 260px;
+     position: relative; 
+     left: 20px;
+    }
+
+#melhor{
+    position: relative;
+    top: 243px; 
+    left: 100px;
+    background-color: #086888c5;
+    border-radius: 10px; 
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 4px;
+    font-size: 15px;}
+/*Fim dos Alimentos*/
+
+
+/*Anuncios Favoritos*/
+
+#favoritos{
+    position: relative; 
+    width: 300px; 
+    clear: left; 
+    top: 95px;
+     left: 10px;
+    }
+.container2{
+    background-color: rgb(240, 240, 240);
+     position: relative;
+      width: 250px; 
+      left: 5px;
+      height: 330px;
+    margin-left: 14.5px; float: left; top: 110px;}
+/*Fim Anuncios Favoritos*/
+
+/*Cadastro email*/
+.cad_email{
+    position: relative;
+    background-color: #40BEF4;
+    width: 1310px;
+     height: 80px;
+    top: 460px; 
+    left: 20px; 
+    border-radius: 12px;}
+
+#cad{position: absolute; top: 15px; left: 12px; font-size: 20px; width: 500px; color: #fff;}
+#email{position: absolute; right: 200px; top: 20px; width: 500px; height: 32px;}
+#send{position: absolute; right: 130px; top: 20px; height: 37px; background-color: #0868889f; border-radius: 10px; 
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); border: 2px;}
+/*Mapa*/
+
+#mapa{position: relative; left: 10px; top: 250px; width: 140px;}
+
+.endereco{position: relative; background-color: #fff; width: 80%; height: 350px; clear: both; 
+    margin-top: 270px; left: 10px;}
+
+.endereco iframe{width: 100%; height: 100%;}
+/*Fim do mapa*/
+
+.entrega{position: absolute; background-color: #fff; width: 18%; float: left; height: 350px; 
+    left: 1100px; top: 1485px;}
+.entrega img{width: 100%; height: 100%;}
+
+/*Footer*/
+footer{ 
+    width: 100%; 
+    color: #000; 
+    background-color: #ccc;
+    margin-top: 50px;
+     height: auto;
+    }
+footer .social{
+    font-size: 25px; 
+    margin-top: 50px;
+    margin-right: 10px;
+     width: 10%;
+    }
+#siga{font-size: 13px; margin-bottom: 10px;}
+footer .box{display: flex; padding-bottom: 30px;}
+footer #info{width: 25%; margin-left: 15px;}
+footer #info ul{list-style: none; display: inline; font-size: 12px;}
+footer #info ul li{margin-top: 8px;}
+
+/* visualização smartphone */
+	
+@media only screen and (max-width:576px)
+{
+
+    body{
+        margin:0;
+        height: auto;
+        width: auto;
+    }
+
+    main{
+        height: auto;
+        width: auto;
+    margin:5%;
+    align-items: center;
+    }
+
+    #menu{
+        display: block;
+        
+    }
+    #menu ul li{
+        display: block;
+        width: 100%; 
+        font-size: 20px; 
+        list-style: none;
+        
+    }
+
+    #menu ul li a{
+        display: block;
+        text-decoration: none;
+        color: #000;
+        text-align: center;
+        background-color: #40bef490;
+        margin-right: 27%;
+        border-radius: 20%;
+
+    }
+
+    #menu ul li a:hover{
+        border-bottom: 3px solid #ffdd1e;
+        background-color: #FFF;
+    }
+
+    .pesquisa{
+        display: none;
+    }
+
+    .direita{
+        display: none;
+    }
+
+    .esquerda{
+        width: auto;
+    }
+    
+    .ozonio{
+        width: auto;
+        height: auto;
+
+    }
+
+    .text_home{
+        display: none;
+    }
+
+    #alimentos{
+        position: relative;
+        width: 230px;
+        clear: left; 
+        top: 35px;
+        left: 10px;
+       
+    } /*Titulo*/
+    
+    .container{
+        background-color: rgb(240, 240, 240);
+        position: relative;
+        width: 270px; 
+        left: 20px;
+
+        height: 330px;
+        margin-bottom: 10%;
+        margin-left: 14.5px;
+        top: 50px;
+    } /*Container que carrega a imagem e o titulo*/
+    
+    .a{
+        background-color: #fff;
+        position: absolute;
+        width: 210px;
+        height: 220px;
+        left: 30px;
+        top: 20px;
+    } /*div que carrega as imagens*/
+
+    .a img{
+        width: 100%; 
+        height: 100%;
+    }
+    
+    #text_alimentos{
+        position: relative;
+        top: 250px; 
+        font-size: 15px;
+        left: 20px;
+        }
+    
+    #preco{
+        top: 260px;
+         position: relative; 
+         left: 20px;
+        }
+
+        .container2{
+            background-color: rgb(240, 240, 240);
+            position: relative;
+            width: 270px; 
+           left: 20px;
+      
+            height: 330px;
+            margin-bottom: 10%;
+            margin-left: 14.5px;
+            top: 130px;
+        }
+
+        .cad_email{
+            display:none;
+        }
+
+        .endereco{
+            width: 97%;
+        }
+        footer .social{
+            font-size: 15px; 
+            margin-right: 30%;
+            width: 10%;
+            display:flex;
+            margin-left: 5%;
+         }
+
+         #siga{
+            display: none;
+            }
+        .entrega{
+            display: none;
+        }
+        
+    
+	
+	
+        }
+/* visualização no tablet */
+
+@media only screen and (min-width:577px){
+ @media only screen and (max-width:768px)
+{
+    
+    body{
+        margin:0;
+        height: auto;
+        width: auto;
+    }
+
+    main{
+        height: auto;
+        width: auto;
+    margin:5%;
+    align-items: center;
+    }
+
+    #menu{
+        display: block;
+        
+    }
+    #menu ul li{
+        display: block;
+        width: 100%; 
+        font-size: 20px; 
+        list-style: none;
+        
+    }
+
+    #menu ul li a{
+        display: block;
+        text-decoration: none;
+        color: #000;
+        text-align: center;
+        background-color: #40bef490;
+        margin-right: 24%;
+        border-radius: 20%;
+
+    }
+
+    #menu ul li a:hover{
+        border-bottom: 3px solid #ffdd1e;
+        background-color: #FFF;
+    }
+
+    .pesquisa{
+        display: none;
+    }
+
+    .direita{
+        display: none;
+    }
+
+    .esquerda{
+        width: 100%;
+    }
+    
+    .ozonio{
+        width: auto;
+        height: auto;
+    }
+
+    .text_home{
+        display: none;
+    }
+
+    #alimentos{
+        position: relative;
+        width: 230px;
+        clear: left; 
+        top: 35px;
+        left: 10px;
+       
+    } /*Titulo*/
+    
+    .container{
+        background-color: rgb(240, 240, 240);
+        position: relative;
+        width: 270px; 
+        left: 95px;
+        height: 330px;
+        margin-bottom: 10%;
+        margin-left: 14.5px;
+        top: 50px;
+    } /*Container que carrega a imagem e o titulo*/
+    
+    .a{
+        background-color: #fff;
+        position: absolute;
+        width: 210px;
+        height: 220px;
+        left: 30px;
+        top: 20px;
+    } /*div que carrega as imagens*/
+
+    .a img{
+        width: 100%; 
+        height: 100%;
+    }
+    
+    #text_alimentos{
+        position: relative;
+        top: 250px; 
+        font-size: 15px;
+        left: 20px;
+        }
+    
+    #preco{
+        top: 260px;
+         position: relative; 
+         left: 20px;
+        }
+
+        .container2{
+            background-color: rgb(240, 240, 240);
+            position: relative;
+            width: 270px; 
+            left: 95px;
+            height: 330px;
+            margin-bottom: 10%;
+            margin-left: 14.5px;
+            top: 130px;
+        }
+
+        .cad_email{
+            display:none;
+        }
+
+        .endereco{
+            width: 97%;
+        }
+        footer .social{
+            font-size: 25px; 
+            margin-right: 20%;
+            width: 10%;
+            display:flex;
+            margin-left: 5%;
+         }
+
+         #siga{
+            display: none;
+            }
+        .entrega{
+            display: none;
+        }
+ 
+}
+}

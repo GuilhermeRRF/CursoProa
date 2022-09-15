@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="castracao.css" type="text/css">
+    <title>Pet´s Mania</title>
+</head>
+<body>
+<main>
+    <header>
+        <div class="esquerda">
+
+            <div class="logo">
+                <a href="index.html">
+                <img src="imagens/logo.png" alt="Logotipo do Pets Mania" title="Vá para o Início">
+                </a>
+            </div>
+    
+    
+            <div class="pesquisa">
+                <div class="caixa_pesquisa">
+                     <input type="text" id="searchTerm" placeholder="O que seu pet precisa?" class="montserrat">
+                     <button type="submit" class="searchButton">
+                     <i class="fa fa-search"></i>
+                     </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="direita">
+            <button class="custom-btn-btn-1"><a href="#">Entrar | Cadastrar</a></button>
+             <button class="custom-btn-btn-3"><a href="#"><i class="fa-regular fa-heart"></i></a></button>
+           <button class="custom-btn-btn-2"><a href="#"><i class="fa-solid fa-cart-shopping"></a></i></button>
+        </div> 
+    </header>
+
+
+    <nav id = "menu" class="montserrat">
+        <ul>
+           <li><a href="index.html">Início</a></li>
+           <li><a href="#titulo_quem">Quem Somos</a></li>
+           <li><a href="index.html">Produtos</a></li>
+           <li><a href="castracao.html">Castração</a></li>
+           <li><a href="adocao.html">Adoção de Pets</a></li>
+           <li><a href="index.html">Onde Estamos</a></li>
+           <li><a href="#titulo_curiosidade">Curiosidades</a></li>
+           <li><a href="adocao.html">Agendamento</a></li>
+       </ul>
+    </nav>
+
+<!--Titulo Castração-->
+    <div class="titulo">
+        <h1 class="montserrat" id="castracao_titulo">Castração</h1>
+            <div class="imagem_coelho">
+             <img src="imagens/coelho_vet.webp" alt="Coelho no Veterinário">
+            </div>
+    </div>
+
+<!--Formulário Castração-->
+
+<div class="cadastro_castracao">
+
+    <label class="montserrat">Nome do Tutor:</label>
+    <input type="text" placeholder="Insira aqui o nome do tutor" id="tutor">
+    <br><br>
+
+    <label class="montserrat">N° Celular:</label>
+    <input type="text" placeholder="Insira aqui seu número de celular" id="celular">
+    <br><br>
+
+    <label class="montserrat">Qual a raça do seu pet:</label>
+    <input type="text" placeholder="Insira aqui a raça do seu pet" id="raca">
+    <br><br>
+
+    <label class="montserrat">Porte:</label>
+    <input type="text" placeholder="Insira aqui o porte do seu pet" id="porte">
+    <br><br>
+
+    <label class="montserrat">Idade do pet:</label>
+    <input type="text" placeholder="Insira aqui a idade do seu pet" id="idade">
+    <br><br>
+
+    <label class="montserrat">Já realizou alguma cirurgia?</label>
+   <span class="montserrat"> Sim <input type="radio" name="opcao" value="sim"></span>
+   <span class="montserrat"> Não <input type="radio" name="opcao" value="não"></span>
+    <br><br>
+
+    <label class="montserrat">O seu pet tem vacina?</label>
+    <span class="montserrat"> Sim <input type="radio" name="opcao1" value="sim"></span>
+    <span class="montserrat"> Não <input type="radio" name="opcao2" value="não"></span>
+    <br><br>
+
+    <button class="montserrat"><a href="#">Cadastrar</a>
+        <script>alert("Entraremos em contato por whatssap!")</script>
+    </button>
+<br><br>
+    <h4 class="montserrat">Entraremos em contato por Whatsaap para mais informações
+         e envios de documentos necessários!</h4>
+</div> <!--Fim do Formulário-->
+
+
+<!--Começo do campo de Texto-->
+<div class="text_castracao">
+    <h2 class="montserrat" id="titulo1">Mitos e verdades sobre a castração!</h2>
+
+
+<!--Campo da Imagem cachorro e Texto Mito-->
+<div class="fundo_img1">
+    <div class="img1">
+      <img src="imagens/vet1.jpg" alt="Cachorro no veterinário">
+    </div>
+</div> <!--Div para a imagem e cor de fundo-->
+
+    <h3 class="montserrat" id="titulo2">Castração é um ato cruel [Mito]</h3>
+         <p class="montserrat" id="texto_mito">O procedimento de castração não causa sofrimento no animal. Quando realizada corretamente em clínicas veterinárias por profissionais especializados, é feita com anestesia própria para o corpo do animal, pontos cirúrgicos, medicamentos anti-inflamatórios e analgésicos, tudo para um procedimento simples, eficaz e sem grandes sequelas pós-anestesia. Seu cão ou gato passa pela castração sem dor ou grandes riscos!</p>
+            <!--Fim da imagem cachorro e texto mito-->
+
+<!--Começo campo gato e verdade-->
+    <div class="fundo_img2">
+        <div class="img2">
+            <img src="imagens/vet3.jpg" alt="Gato no veterinário">
+        </div>
+    </div>
+    <h3 class="montserrat" id="titulo3">Animal castrado não faz xixi por todos os cantos [Verdade]</h3>
+    <p class="montserrat" id="texto_verdade">Problemas de comportamento, como a necessidade de urinar para demarcar território, são reduzidos ou eliminados, assim trazendo uma ótima vantagem que é a diminuição no odor de urina pela casa. No caso das fêmeas, mais uma ótima vantagem é que não terá manchas de sangue pela casa.</p>
+
+<!--Fim do campo gato e verdade-->
+ </div>
+
+
+<footer>
+    <div class="box"> 
+        <div id="info" class="montserrat">
+            <ul>
+                <li><b>Dúvidas</b></li>
+                <li>Ajuda online</li>
+                <li>Politica de promoções</li>
+                <li>Politica de privacidade</li>
+            </ul>
+        </div>
+    
+        <div id="info" class="montserrat">
+            <ul>
+                <li><b>Pet´s Mania</b></li>
+                <li>Campanhas sociais</li>
+                <li>Eventos</li>
+                <li>Trabalhe conosco</li>
+            </ul>
+        </div>
+    
+        <div id="info" class="montserrat">
+            <ul>
+                <li><b>Especiais</b></li>
+                <li>Black friday</li>
+                <li>Pet idoso</li>
+                <li>Cupom de desconto</li>
+            </ul>
+        </div>
+    
+     
+    
+     <div class="social">
+        <p class="montserrat" id="siga"><b>Siga a Pet´s Mania</b></p>
+        <i class="fa-brands fa-facebook"></i> 
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-youtube"></i>
+    </div>
+    </div>
+  
+  </footer>
+
+</main>
+</body>
+</html>
